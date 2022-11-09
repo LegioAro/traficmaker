@@ -95,6 +95,12 @@
         linear-gradient(0deg, #ffffff, #ffffff);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
+
+      i {
+        font-style: normal;
+        color: #fff;
+        -webkit-text-fill-color: #ffffff;
+      }
     }
   }
 
