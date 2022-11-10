@@ -143,6 +143,7 @@
     span {
       position: relative;
       display: inline-block;
+      text-decoration: underline;
       &::before {
         content: '';
         position: absolute;
@@ -151,6 +152,7 @@
         background-color: #fff;
         bottom: 0;
         left: 0;
+        display: none;
       }
     }
   }
