@@ -34,7 +34,7 @@ function isModalClose() {
 
 function isTimer() {
   let dateNow = new Date();
-  let minutesDeadline = 7;
+  let minutesDeadline = 8;
   dateNow.setMinutes(dateNow.getMinutes() + minutesDeadline);
 
   function countdownTimer() {
@@ -94,7 +94,6 @@ function isMoveHeaderBtn() {
   const blockBtnDesctop = document.querySelector('.header__desc');
   const blockBtnmob = document.querySelector('.header__timer-mob');
 
-  console.log(headerBtn, blockBtnDesctop, blockBtnmob);
 
   if (headerBtn && blockBtnDesctop && blockBtnmob && window.innerWidth > 850) {
     blockBtnDesctop.append(headerBtn);
